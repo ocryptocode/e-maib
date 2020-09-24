@@ -1,0 +1,46 @@
+{
+  "name": "e-maib",
+  "version": "1.0.0",
+  "description": "Wrapper for MAIB E-Commerce",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionleu/e-maib.git"
+  },
+  "keywords": [
+    "maib",
+    "maib api",
+    "e-commerce",
+    "moldova angroinbank"
+  ],
+  "author": "Ion Leu <ion.leu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ionleu/e-maib/issues"
+  },
+  "homepage": "https://github.com/ionleu/e-maib#readme",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/faker": "^4.1.9",
+    "@types/jest": "^25.1.0",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "faker": "^4.1.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^25.0.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
