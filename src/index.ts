@@ -1,3 +1,4 @@
+// create class EMaib
 class EMaib {
   constructor(private merchant_id: string, private service_key: string) {
     // this.api = new Api(merchant_id, service_key);
@@ -6,4 +7,5 @@ class EMaib {
   }
 }
 
+// export class EMaib
 export default EMaib
